@@ -2392,6 +2392,25 @@ Start of global snippet
 		</script>
 	</div>
 
+				<div id="courseblock-MAT310-4" class="course-data">
+					<h4 class="course-title top"><a class = "minimized">MAT310 Differential Equations</a></h4> 
+					<div class="content">
+						<p class="course-description">Methods of solution of ordinary differential equations with some applications to geometry and physics. (3 units)</p>
+					</div>
+					<script src="/_resources/js/vendor/jquery.js"></script>
+					<script>
+						$("#courseblock-MAT310-4 a").on( "click", function() {
+						    if($(this).hasClass('minimized')) {
+						      $(this).removeClass('minimized').addClass('expanded');
+						      $('#courseblock-MAT310-4 .content').show();
+						    }
+						    else {
+						      $(this).removeClass('expanded').addClass('minimized');
+						      $('#courseblock-MAT310-4 .content').hide();
+						    }
+						});		
+					</script>
+				</div>
 			
 		
                      
